@@ -382,9 +382,11 @@ animation-play-state: paused;
   }
 
   #page1 h1 {
-    font-size: 200px;
-    letter-spacing: -10px;
+    font-size: 70px;
+    letter-spacing: -2px;
     line-height: 200px;
+    width: fit-content;
+    margin: 0.10px;
   }
 
   #nav {
@@ -435,9 +437,16 @@ animation-play-state: paused;
     font-size: 20px;
   }
 
+
+
+  #page3{
+   position: relative;
+  }
   #page3 h1 {
-    font-size: 120px;
-    line-height: 150px;
+    font-size: 110px;
+    line-height: 100px;
+    letter-spacing: -20;
+    margin: 0;
   }
 
   #page3 img {
